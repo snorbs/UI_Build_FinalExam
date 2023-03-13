@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+  color: rgb(255, 255, 255);
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  background-color: #f8f7f3;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  background-color: #1a24fb;
+  align-items: center;
+  padding: 0 14px;
+}
+header p {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  color: #f8f7f3;
+  overflow-wrap: break-word;
+}
+header .material-icons.md-24 {
+  color: #f8f7f3;
+}
+
+.cards-container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 100px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  padding: 50px 30px;
+  background-color: #f8f7f3;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.cards-container .card {
+  height: 380px;
+  max-height: 500px;
+  position: relative;
+  border: #1a24fb 1px solid;
+  max-width: 360px;
+  padding: 40px;
+  background-color: #f8f7f3;
+}
+.cards-container .card .number {
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #1a24fb;
+}
+.cards-container .card .title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a24fb;
+  font-family: "Montserrat", sans-serif;
+  min-height: 108px;
+}
+.cards-container .card .sub {
+  font-size: 12px;
+  color: #1a24fb;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.cards-container .card .text {
+  font-size: 16px;
+  color: #1a24fb;
+}
+.cards-container .card button {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  display: flex;
+  max-width: 360px;
+  width: 100%;
+  height: 18px;
+  font-size: 14px;
+  justify-content: space-between;
+  align-items: center;
+  border: #f8f7f3 0 solid;
+  color: #1a24fb;
+}
+.cards-container button:hover {
+  background-color: #1a24fb;
+  color: #f8f7f3;
+}/*# sourceMappingURL=style.css.map */
